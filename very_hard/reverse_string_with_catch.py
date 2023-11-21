@@ -13,10 +13,10 @@ def special_reverse_string(txt):
     return "".join(arr)
 
 
-print(special_reverse_string("UPPER lower"))
-print(special_reverse_string("1 23 456"))
-print(special_reverse_string("addition(3, 2) = 5"))
-# print(special_reverse_string("Hello World!"))
-print(special_reverse_string("Where's your dog Daisy?"))  # ?ysiadg odru oys 'erehw
-print(special_reverse_string(
-    "It's known that CSS means Cascading Style Sheets"))  # Stee hsely tsgn IDA csacs Naemsscta Htnwo Nks'ti
+# print(special_reverse_string("UPPER lower"))
+# print(special_reverse_string("1 23 456"))
+# print(special_reverse_string("addition(3, 2) = 5"))
+print(special_reverse_string("Hello World!"))
+# print(special_reverse_string("Where's your dog Daisy?"))  # ?ysiadg odru oys 'erehw
+# print(special_reverse_string(
+#     "It's known that CSS means Cascading Style Sheets"))  # Stee hsely tsgn IDA csacs Naemsscta Htnwo Nks'ti
