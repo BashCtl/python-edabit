@@ -20,17 +20,17 @@ lcm([5, 7, 11, 35, 55, 77]) ➞ 385
 """
 
 
-def gcdTwo(a, b):
+def gcd_two(a, b):
     while b > 0:
-        temp = b;
-        b = a % b;
-        a = temp;
+        temp = b
+        b = a % b
+        a = temp
 
-    return a;
+    return a
 
 
 def lcm(nums):
-    return reduce(lambda a, b: a * b // gcdTwo(a, b), nums)
+    return reduce(lambda a, b: a * b // gcd_two(a, b), nums)
 
 
 print(lcm([5]))
