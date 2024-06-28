@@ -23,23 +23,18 @@ The input will never be a negative integer.
 
 """
 
-
 from unittest import TestCase
 
 
 def fib_seq(end=None):
     if end is None:
         return None
-    elif end == 0:
-        return []
     x1, x2 = 0, 1
     result = []
     for _ in range(end):
         result.append(x1)
         x1, x2 = x2, x1 + x2
     return result
-
-
 
 
 TestCase().assertEqual(fib_seq(2), [0, 1])
